@@ -18,7 +18,8 @@ Proyecto donde se validan conocimientos básicos en Node.js, con pequeña app pa
 
 👉 Para interactuar con el archivo index.js se deberán pasar argumentos por línea de comando especificando qué función se desea ejecutar, por ejemplo:
 
-  - node index.js registrar Benito “2 años” perro blanco vomitos node index.js leer
+  - node index.js registrar Benito “2 años” perro blanco vomitos
+  - node index.js leer
 
   - Se deberá crear condiciones que evalúen, según el argumento correspondiente, qué función ejecutar:
   if (operacion === "registrar") { registrar(nombre, edad, animal, color, enfermedad); }

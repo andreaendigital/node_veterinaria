@@ -1,3 +1,4 @@
+//importación del módulo FileSystem para lectura y escritura de documentos:
 const fs = require("fs");
 
 // creación de la función registrar 
@@ -16,7 +17,6 @@ const registrar = (nombre, edad, tipoAnimal, colorAnimal, enfermedad) => {
 };
 
 //creación de la función leer
-
 const leer = () => {
     const datos = JSON.parse(fs.readFileSync("citas.json", "utf-8"));
     console.log (datos);
